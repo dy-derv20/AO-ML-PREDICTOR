@@ -3,30 +3,18 @@ import os
 from pathlib import Path
 
 #Configuration
-BASE_URL = "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master"
+BASE_URL = "https://raw.githubusercontent.com/Tennismylife/TML-Database/master"
 OUTPUT_DIR = "tennis_data"
 
 # Files to download
 FILES_TO_DOWNLOAD = [
-    "atp_players.csv",
-    "atp_matches_2015.csv",
-    "atp_matches_2016.csv",
-    "atp_matches_2017.csv",
-    "atp_matches_2018.csv",
-    "atp_matches_2019.csv",
-    "atp_matches_2020.csv",
-    "atp_matches_2021.csv",
-    "atp_matches_2022.csv",
-    "atp_matches_2023.csv",
-    "atp_matches_2024.csv",
-    "README.md",
+    "2025.csv",
+    "2026.csv"
 ]
 
 # Optional: Add rankings files if needed
 RANKINGS_FILES = [
-    "atp_rankings_current.csv",
-    "atp_rankings_10s.csv",
-    "atp_rankings_20s.csv",
+    #None for TML Database
 ]
 
 def download_file(filename, output_dir):
