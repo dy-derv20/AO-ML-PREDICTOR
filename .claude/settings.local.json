@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(\"/c/Users/ethan/OneDrive/Desktop/AO-ML-PREDICTOR/venv/Scripts/python.exe\" -c \"import pandas as pd; df = pd.read_csv\\('/c/Users/ethan/OneDrive/Desktop/AO-ML-PREDICTOR/tennis_data/derived_data/complete.csv'\\); print\\('Shape:', df.shape\\); print\\('Date range:', df['tourney_date'].min\\(\\), 'to', df['tourney_date'].max\\(\\)\\)\")",
+      "Bash(\"C:/Users/ethan/OneDrive/Desktop/AO-ML-PREDICTOR/venv/Scripts/python.exe\" -c \"\nimport pandas as pd\ndf = pd.read_csv\\('C:/Users/ethan/OneDrive/Desktop/AO-ML-PREDICTOR/tennis_data/derived_data/complete.csv'\\)\nprint\\('Shape:', df.shape\\)\nprint\\('Date range:', df['tourney_date'].min\\(\\), 'to', df['tourney_date'].max\\(\\)\\)\nprint\\('Columns:', list\\(df.columns\\)\\)\n\")"
+    ]
+  }
+}

@@ -240,8 +240,7 @@ def validate_final_data(df):
         format='%Y%m%d',
         errors='coerce'
     )
-    
-    min_date = df_temp['tourney_date'].min()
+    min_date = df_temp['tourney_dat
     max_date = df_temp['tourney_date'].max()
     print(f"✓ Date range: {min_date.strftime('%Y-%m-%d')} to {max_date.strftime('%Y-%m-%d')}")
     
